@@ -2,18 +2,47 @@
   --bg-color-primary: rgb(233, 224, 144);
   --bg-color-secondary: #c99526;
 
+  --bg-color-secondary-transparent: #1a1a1a86;
+
+  --max-main-cont-width: 1650px;
+  --min-main-cont-width: 320px;
+
   --text-color-secondary: black;
+  --text-color-secondary: rgb(247, 245, 245);
 }
 
 * {
   box-sizing: border-box;
 }
 
+button,
+input,
 p {
-  color: aqua;
+  border: inherit;
+  background-color: transparent;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
 }
 
-button,
-input {
-  border: inherit;
+body {
+  margin: 0;
+}
+
+#main-container {
+  max-width: var(--max-main-cont-width);
+  min-width: var(--min-main-cont-width);
+  background-image: url(./assets/restaurant-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  min-height: 900px;
+}
+
+#main-content-container {
+  padding: 0.8rem;
+}
+
+header {
+  max-width: 100%;
 }
