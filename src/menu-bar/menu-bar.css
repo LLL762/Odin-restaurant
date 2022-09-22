@@ -1,0 +1,15 @@
+#menu-bar {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: var(--bg-color-primary);
+}
+
+.menu-item {
+  flex: 0 0 10em;
+  border-radius: 15px;
+  padding: 0.5em;
+  background-color: var(--bg-color-secondary);
+  color: var(--text-color-secondary);
+}

@@ -1,0 +1,19 @@
+:root {
+  --bg-color-primary: rgb(233, 224, 144);
+  --bg-color-secondary: #c99526;
+
+  --text-color-secondary: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: aqua;
+}
+
+button,
+input {
+  border: inherit;
+}
