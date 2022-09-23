@@ -1,3 +1,10 @@
+#home-content {
+}
+
 #main-content-header {
-  background-color: aliceblue;
+  font-family: "OdinFont";
+  text-align: center;
+  font-size: 4.5rem;
+  color: var(--text-color-secondary);
+  text-shadow: 0.1em 0.1em 0.25em;
 }

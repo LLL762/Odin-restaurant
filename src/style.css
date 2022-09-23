@@ -9,6 +9,13 @@
 
   --text-color-secondary: black;
   --text-color-secondary: rgb(247, 245, 245);
+
+  --text-selected-secondary: #c99526;
+}
+
+@font-face {
+  font-family: "OdinFont";
+  src: url("./assets/fonts/Norse-Bold.otf") format("opentype");
 }
 
 * {

@@ -5,12 +5,12 @@
   padding: 0.5rem;
   background-color: var(--bg-color-secondary-transparent);
   color: var(--text-color-secondary);
-  font-size: larger;
+  font-size: 1.8rem;
 }
 
 #header-content > p {
   margin: auto;
-  font-size: x-large;
+  font-size: 2rem;
 }
 
 #menu-bar {
@@ -31,4 +31,9 @@
   border-bottom: 1px var(--text-color-secondary) solid;
   margin-bottom: -1px;
   cursor: pointer;
+  color: var(--text-selected-secondary);
+}
+
+.menu-item-selected {
+  color: var(--text-selected-secondary);
 }
